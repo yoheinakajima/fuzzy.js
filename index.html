@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>fuzzy.js demo</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  
+  <h4><span class="fuzzy" fuzzy_atr="name"></span></h4>
+  <span class="fuzzy" fuzzy_atr="address"></span></br>
+  <div><span class="fuzzy" fuzzy_atr="cuisine"></span>
+  
+  <script src="fuzzy.js"></script>
+  <script>
+    $(document).ready(function() {
+      fuzzyapi("Restaurants in Seattle");
+    });
+  </script>
+
+</body>
+
+</html>
